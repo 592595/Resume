@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.util.*" %>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -18,16 +19,16 @@
 </head>
 
 <body>
-<form class="box login">
+<form class="box login" action="LoginServlet" method="post">
     <fieldset class="boxBody">
-        <label>Username</label>
-        <input type="text" tabindex="1" placeholder="PremiumPixel" required>
-        <label><a href="#" class="rLink" tabindex="5">Forget your password?</a>Password</label>
-        <input type="password" tabindex="2" required>
+        <label>用户名</label>
+        <input type="text" tabindex="1" id="username" name="username" required>
+        <label><a href="#" class="rLink" tabindex="5">忘记密码</a>密码</label>
+        <input type="password" tabindex="2" id="pwd" name="pwd" required>
     </fieldset>
     <footer>
         <label><input type="checkbox" tabindex="3">Keep me logged in</label>
-        <input type="submit" class="btnLogin" value="Login" tabindex="4">
+        <input type="submit" class="btnLogin" value="Login" tabindex="4"/>
         <a href="back.jsp">denglu</a>
     </footer>
 </form>
