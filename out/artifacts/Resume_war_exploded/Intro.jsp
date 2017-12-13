@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Intro管理</title>
+    <title>后台管理</title>
     <link rel="stylesheet" type="text/css" href="StaticResource/CSS/common.css"/>
     <link rel="stylesheet" type="text/css" href="StaticResource/CSS/main.css"/>
     <script type="text/javascript" src="StaticResource/JS/modernizr.min.js"></script>
@@ -19,7 +19,7 @@
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
-            <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1>
+            <h1 class="topbar-logo none"><a href="back.jsp" class="navbar-brand">后台管理</a></h1>
         </div>
     </div>
 </div>
@@ -31,7 +31,7 @@
         <div class="sidebar-content">
             <ul class="sidebar-list">
                 <li>
-                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                    <a href="back.jsp"><i class="icon-font">&#xe003;</i>常用操作</a>
                     <ul class="sub-menu">
                         <li><a href="Intro.jsp"><i class="icon-font">&#xe008;</i>Intro管理</a></li>
                         <li><a href="Experience.jsp"><i class="icon-font">&#xe005;</i>Experience管理</a></li>

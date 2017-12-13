@@ -20,7 +20,7 @@
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
-            <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1>
+            <h1 class="topbar-logo none"><a href="back.jsp" class="navbar-brand">后台管理</a></h1>
         </div>
     </div>
 </div>
@@ -32,7 +32,7 @@
         <div class="sidebar-content">
             <ul class="sidebar-list">
                 <li>
-                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                    <a href="back.jsp"><i class="icon-font">&#xe003;</i>常用操作</a>
                     <ul class="sub-menu">
                         <li><a href="Intro.jsp"><i class="icon-font">&#xe008;</i>Intro管理</a></li>
                         <li><a href="Experience.jsp"><i class="icon-font">&#xe005;</i>Experience管理</a></li>
@@ -61,33 +61,33 @@
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>01</td>  <!--标签ID-->
+                            <td>Intro</td>  <!--标签ID-->
                             <td>
-                                <a class="link-update" href="#">修改</a>
+                                <a class="link-update" href="Intro.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
                             </td>
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>02</td>  <!--标签ID-->
+                            <td>Experience</td>  <!--标签ID-->
                             <td>
-                                <a class="link-update" href="#">修改</a>
+                                <a class="link-update" href="Experience.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
                             </td>
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>03</td>  <!--标签ID-->
+                            <td>Works</td>  <!--标签ID-->
                             <td>
-                                <a class="link-update" href="#">修改</a>
+                                <a class="link-update" href="Works.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
                             </td>
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>04</td>  <!--标签ID-->
+                            <td>Contacts</td>  <!--标签ID-->
                             <td>
-                                <a class="link-update" href="#">修改</a>
+                                <a class="link-update" href="Contacts.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
                             </td>
                         </tr>
