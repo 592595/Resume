@@ -1,53 +1,64 @@
 package com.example.nutzdemo.bean;
-
-import com.mysql.jdbc.Connection;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
 	public LoginServlet() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		// TODO Auto-generated method stub
+		doPost(request,response);
 	}
 
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("utf-8");
-		response.setCharacterEncoding("utf-8");
-		response.setContentType("text/html; charset=UTF-8");
-		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/resume";
-		String user = "root";
-		String password = "";
+		// TODO Auto-generated method stub
+		request.setCharacterEncoding("GBK");
+		response.setContentType("text/html;charset = GBK");
+		PrintWriter out = response.getWriter();
 		String username = request.getParameter("username");
 		String pwd = request.getParameter("pwd");
-		Connection conn = null;
-		ResultSet rs = null;
-
+		DBOper db = new DBOper();
+		db.getConn("localhost", "resume", "root", "");
+		String sql = "SELECT username,pwd FROM user WHERE username = ? AND pwd = ?";
+		ResultSet rs = db.executeQuery(sql,new String[]{username,pwd});
 		try {
-			Class.forName(driver);
-			conn = (Connection)DriverManager.getConnection(url, user, password);
-			String sql = "select * from User where username=? and pwd=?";
-			PreparedStatement ps = conn.prepareStatement(sql);
-			ps.setString(1, username);
-			ps.setString(2, pwd);
-			rs = ps.executeQuery();
-			PrintWriter out;
-			if (rs.next()) {
-				request.getRequestDispatcher("/back.jsp").forward(request, response);
-			} else {
-				System.out.println("login fail!!");
+			if(rs != null && rs.next()){
+				HttpSession session = request.getSession();
+				session.setAttribute("username",username);
+				Cookie cookie = new Cookie("username",username);
+				cookie.setMaxAge(60*60*24*30);
+				response.addCookie(cookie);
+                request.getRequestDispatcher("/back.jsp").forward(request, response);
+			}else{
+                System.out.println("login fail!!");
 				out = response.getWriter();
 				out.flush();
 				out.println("<script>");
@@ -56,45 +67,14 @@ public class LoginServlet extends HttpServlet {
 				out.println("</script>");
 				out.close();
 			}
-
-			ps.close();
-		} catch (Exception var26) {
-			var26.printStackTrace();
-		} finally {
-			if (conn != null) {
-				try {
-					conn.close();
-				} catch (SQLException var25) {
-					var25.printStackTrace();
-				}
-			}
-
-			if (rs != null) {
-				try {
-					rs.close();
-				} catch (SQLException var24) {
-					var24.printStackTrace();
-				}
-			}
-
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-
-		this.doGet(request, response);
 	}
+
+	public void init()throws ServletException {
+
+	}
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

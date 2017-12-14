@@ -51,12 +51,12 @@
             </div>
             <div class="result-wrap">
                 <div class="result-content">
-                    <form action="#" method="post" id="myform" name="myform"
+                    <form action="IntroServlet" method="post" id="myform" name="myform"
                           enctype="multipart/form-data">
                         <table class="insert-tab" width="70%">
                             <tr>
                                 <th>个人介绍：</th>
-                                <td><textarea name="content" class="common-textarea" id="content" cols="30"
+                                <td><textarea name="Intro" class="common-textarea" id="content" cols="30"
                                               style="width: 100%;" rows="10"></textarea></td>
                             </tr>
                             <tr>
