@@ -6,7 +6,6 @@ public class User {
 
     private String username;
     private String pwd;
-    private String Intro;
     public String getUsername() {
         return username;
     }
@@ -18,12 +17,6 @@ public class User {
     }
     public void setpwd(String pwd) {
         this.pwd = pwd;
-    }
-    public String getIntro(){
-        return Intro;
-    }
-    public void setIntro(String Intro){
-        this.Intro=Intro;
     }
 
 }

@@ -51,21 +51,28 @@
             </div>
             <div class="result-wrap">
                 <div class="result-content">
-                    <form action="#" method="post" id="myform" name="myform"
+                    <form action="ExperServlet" method="GET" id="myform" name="myform"
                           enctype="multipart/form-data">
                         <table class="insert-tab" width="100%">
                             <tbody>
                             <tr>
-                                <th><i class="require-red">*</i>标题：</th>
+                                <th><i class="require-red">*</i>位置：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="title" size="50" value=""
+                                    <input class="common-text required"  name="Experid" size="50" value=""
+                                           type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>标题：</th>
+                                <td>
+                                    <input class="common-text required" id="ExperTitle" name="ExperTitle" size="50" value=""
                                            type="text">
                                 </td>
                             </tr>
                             <tr>
                                 <th>描述：</th>
-                                <td><textarea name="content" class="common-textarea" id="content" cols="30"
-                                              style="width: 36%;" rows="10"></textarea></td>
+                                <td><textarea name="content" class="common-textarea" id="ExperContent" name="ExperContent" cols="30"
+                                              style="width: 50%;" rows="10"></textarea></td>
                             </tr>
                             <tr>
                                 <th></th>

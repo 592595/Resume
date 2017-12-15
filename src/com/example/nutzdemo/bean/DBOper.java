@@ -54,7 +54,7 @@ public class DBOper {
     public ResultSet executeQuery(String preparedSql,String []param){
         try{
             ps = conn.prepareStatement(preparedSql);
-            if(param != null){
+            if(ps != null){
                 for (int i = 0; i < param.length; i++) {
                     ps.setString(i + 1, param[i]);
                 }
@@ -66,6 +66,7 @@ public class DBOper {
         return rs;
 
     }
+
     //执行sql语句，增加，修改，删除
     public int executeUpdate(String preparedSql,String[]param){
         int num = 0;
@@ -77,6 +78,7 @@ public class DBOper {
                 }
             }
             num = ps.executeUpdate();
+            System.out.println("数据表更新"+num+"条");
         }catch(SQLException e){
             e.printStackTrace();
         }

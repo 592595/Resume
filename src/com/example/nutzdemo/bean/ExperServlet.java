@@ -8,14 +8,14 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-@WebServlet("/IntroServlet")
-public class IntroServlet extends HttpServlet {
+@WebServlet("/ExperServlet")
+public class ExperServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public IntroServlet() {
+    public ExperServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,17 +28,21 @@ public class IntroServlet extends HttpServlet {
         request.setCharacterEncoding("GBK");
         response.setContentType("text/html;charset = GBK");
         String username = "panda";
-        String IntroContent = request.getParameter("IntroContent");
+        String Experid = request.getParameter("Experid");
+        String ExperTitle = request.getParameter("ExperTitle");
+        String ExperContent = request.getParameter("ExperContent");
         PrintWriter out = response.getWriter();
-        //System.out.println(IntroContent);
-        //System.out.println(username);
-        Intro intro = new Intro();
-        intro.setusername(username);
-        intro.setIntroContent(IntroContent);
-        //System.out.println(intro.getIntroContent());
-        IntroDao dao = new IntroDao();
+        System.out.println(ExperContent);
+
+        Exper exper = new Exper();
+        exper.setusername(username);
+        exper.setExperid(Experid);
+        exper.setExperTitle(ExperTitle);
+        exper.setExperContent(ExperContent);
+
+        ExperDao dao = new ExperDao();
         dao.getConn("localhost", "resume", "root", "");
-        if (dao.editIntr(intro)) {
+        if (dao.editExper(exper)) {
             out.println("success");
             out.println("<br><a href = 'back.jsp'>返回</a></br>");
         } else {

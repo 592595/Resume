@@ -46,12 +46,11 @@ public class UserDao extends DBOper{
         }
         return user;
     }
-    //修改用户信息
-    public boolean editIntro(User user){
+    public boolean editUser(User user){
         boolean r = false;
-        String sql = "UPDATE user SET Intro = ? WHERE username = ?";
+        String sql = "UPDATE user SET pwd = ? WHERE username = ?";
         try{
-            int num = this.executeUpdate(sql, new String[]{user.getIntro(),user.getUsername()});
+            int num = this.executeUpdate(sql, new String[]{user.getpwd(),user.getUsername()});
             if(num > 0){
                 r = true;
             }
@@ -63,6 +62,7 @@ public class UserDao extends DBOper{
         return r;
 
     }
+
 //    //添加用户
 //    public boolean addUser(User user){
 //        boolean r = false;

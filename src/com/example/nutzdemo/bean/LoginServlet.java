@@ -59,6 +59,8 @@ public class LoginServlet extends HttpServlet {
                 request.getRequestDispatcher("/back.jsp").forward(request, response);
 			}else{
                 System.out.println("login fail!!");
+				System.out.println(username);
+				System.out.println(pwd);
 				out = response.getWriter();
 				out.flush();
 				out.println("<script>");
