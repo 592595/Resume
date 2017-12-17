@@ -59,14 +59,15 @@
 
                                 <th><i class="require-red">*</i>位置：</th>
                                 <td>
-                                    <input class="common-text required"  name="Experid" size="50" value=""
+                                    <input class="common-text required" name="Experid" size="50" value=""
                                            type="text">
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red"></i>标题：</th>
                                 <td>
-                                    <input class="common-text required" id="ExperTitle" name="ExperTitle" size="50" value=""
+                                    <input class="common-text required" id="ExperTitle" name="ExperTitle" size="50"
+                                           value=""
                                            type="text">
                                 </td>
                             </tr>

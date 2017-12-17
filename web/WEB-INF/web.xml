@@ -33,9 +33,14 @@
     </servlet>
     <servlet>
         <description></description>
-        <display-name>ContactServlet</display-name>
-        <servlet-name>ContactServlet</servlet-name>
-        <servlet-class>com.example.nutzdemo.bean.ContactServlet</servlet-class>
+        <display-name>editContactServlet</display-name>
+        <servlet-name>editContactServlet</servlet-name>
+        <servlet-class>com.example.nutzdemo.bean.editContactServlet</servlet-class>
     </servlet>
-
+    <servlet>
+        <description></description>
+        <display-name>WorkServlet</display-name>
+        <servlet-name>WorkServlet</servlet-name>
+        <servlet-class>com.example.nutzdemo.bean.WorkServlet</servlet-class>
+    </servlet>
 </web-app>

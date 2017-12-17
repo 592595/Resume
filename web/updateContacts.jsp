@@ -6,6 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="com.example.nutzdemo.bean.Contact" %>
+<%@ page import="com.example.nutzdemo.bean.ContactDao" %>
 <!doctype html>
 <html>
 <head>
@@ -16,6 +19,19 @@
     <script type="text/javascript" src="StaticResource/JS/modernizr.min.js"></script>
 </head>
 <body>
+<%
+    String Contactid = request.getParameter("Contactid");
+    ContactDao dao = new ContactDao();
+    try {
+        dao.getConn("localhost", "resume", "root", "");
+        Contact contact = dao.getContactByid(Contactid);
+        if (contact!=null){
+            pageContext.setAttribute("contact",contact);
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+%>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
@@ -51,21 +67,31 @@
             </div>
             <div class="result-wrap">
                 <div class="result-content">
-                    <form action="#" method="post" id="myform" name="myform"
+                    <form action="editContactServlet" method="GET" id="myform" name="myform"
                           enctype="multipart/form-data">
                         <table class="insert-tab" width="100%">
                             <tbody>
                             <tr>
+                                    <th><i class="require-red">*</i>位置：</th>
+                                    <td>
+                                        <input class="common-text required" id="Contactid" name="Contactid" size="50"
+                                               value="${contact.contactid}"
+                                               type="text">
+                                    </td>
+                            </tr>
+                            <tr>
                                 <th><i class="require-red">*</i>标签：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="title" size="50" value=""
+                                    <input class="common-text required" id="ContactTitle" name="ContactTitle" size="50"
+                                           value="${contact.contactTitle}"
                                            type="text">
                                 </td>
                             </tr>
                             <tr>
                                 <th>内容：</th>
-                                <td><textarea name="content" class="common-textarea" id="content" cols="30"
-                                              style="width: 36%;" rows="10"></textarea></td>
+                                <td><textarea name="ContactContent" class="common-textarea" id="ContactContent"
+                                              cols="30" placeholder="${contact.contactContent}"
+                                              style="width: 50%;" rows="10"></textarea></td>
                             </tr>
                             <tr>
                                 <th></th>

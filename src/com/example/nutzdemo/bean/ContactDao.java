@@ -11,31 +11,31 @@ public class ContactDao extends DBOper {
      *
      * @return
      */
-    public List<Contact> getAllContact() {//把Msg改成Intro
-        List<Contact> ContactList = new ArrayList<Contact>();
-        String sql = "SELECT * FROM Contact";
+    public List<Contact> getAllContact() {
+        List<Contact> contactList = new ArrayList<Contact>();
+        String sql = "SELECT * FROM contact";
         try {
 
             ResultSet rs = this.executeQuery(sql, null);
             while (rs.next()) {
-                Contact Contact = new Contact();
-                Contact.setusername(rs.getString("username"));
-                Contact.setContactid(rs.getString("Contactid"));
-                Contact.setContactTitle(rs.getString("ContactTitle"));
-                Contact.setContactContent(rs.getString("ContactContent"));
-                ContactList.add(Contact);
+                Contact contact = new Contact();
+                contact.setusername(rs.getString("username"));
+                contact.setContactid(rs.getString("Contactid"));
+                contact.setContactTitle(rs.getString("ContactTitle"));
+                contact.setContactContent(rs.getString("ContactContent"));
+                contactList.add(contact);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             this.closeAll();
         }
-        return ContactList;
+        return contactList;
     }
 
     public Contact getContactByid(String Contactid) {
         Contact Contact = null;
-        String sql = "SELECT * FROM Contact WHERE username = ?";
+        String sql = "SELECT * FROM contact WHERE Contactid = ?";
         try {
             ResultSet rs = this.executeQuery(sql, new String[]{Contactid});
             if (rs.next()) {
@@ -54,15 +54,15 @@ public class ContactDao extends DBOper {
     /**
      * 修改Intr信息
      *
-     * @param Contact
+     * @param contact
      * @return
      */
-    public boolean editContact(Contact Contact) {
+    public boolean editContact(Contact contact) {
 
         boolean r = false;
-        String sql = "UPDATE Contact SET ContactTitle = ?,ContactContent=? WHERE  Contactid= ?";
+        String sql = "UPDATE contact SET ContactTitle = ?,ContactContent=? WHERE  Contactid= ?";
         try {
-            int num = this.executeUpdate(sql, new String[]{Contact.getContactTitle(), Contact.getContactContent(), Contact.getContactid()});
+            int num = this.executeUpdate(sql, new String[]{contact.getContactTitle(), contact.getContactContent(), contact.getContactid()});
             System.out.println("num:" + num);
             //System.out.println(Contact.getContactContent());
             if (num > 0) {

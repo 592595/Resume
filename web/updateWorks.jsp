@@ -1,6 +1,13 @@
 <%--
   Created by IntelliJ IDEA.
   User: Pandade
+  Date: 2017/12/17
+  Time: 21:40
+  To change this template use File | Settings | File Templates.
+--%>
+<%--
+  Created by IntelliJ IDEA.
+  User: Pandade
   Date: 2017/12/10
   Time: 22:45
   To change this template use File | Settings | File Templates.
@@ -47,33 +54,51 @@
 
         <div class="crumb-wrap">
             <div class="crumb-list"><i class="icon-font"></i><a href="index.jsp">首页</a><span
-                    class="crumb-step">&gt;</span><a class="crumb-name" href="Experience.jsp">Experience管理</a>
+                    class="crumb-step">&gt;</span><a class="crumb-name" href="Works.jsp">Works管理</a>
             </div>
             <div class="result-wrap">
                 <div class="result-content">
-                    <form action="ExperServlet" method="GET" id="myform" name="myform"
+                    <form action="#" method="post" id="myform" name="myform"
                           enctype="multipart/form-data">
                         <table class="insert-tab" width="100%">
                             <tbody>
                             <tr>
-
                                 <th><i class="require-red">*</i>位置：</th>
                                 <td>
-                                    <input class="common-text required" name="Experid" size="50" value=""
+                                    <input class="common-text required" id="id" name="id" size="50" value=""
                                            type="text">
                                 </td>
                             </tr>
                             <tr>
-                                <th><i class="require-red"></i>标题：</th>
+                                <th><i class="require-red">*</i>标题：</th>
                                 <td>
-                                    <input class="common-text required" id="ExperTitle" name="ExperTitle" size="50"
-                                           value=""
+                                    <input class="common-text required" id="title" name="title" size="50" value=""
                                            type="text">
                                 </td>
                             </tr>
                             <tr>
-                                <th>描述：</th>
-                                <td><textarea class="common-textarea" id="ExperContent" name="ExperContent" cols="30"
+                                <th><i class="require-red">*</i>图片：</th>
+                                <td><input name="smallimg" id="" type="file">
+                                    <!--<input type="submit" onclick="submitForm('/jscss/admin/design/upload')" value="上传图片"/>-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>时间：</th>
+                                <td>
+                                    <input class="common-text required"  name="title" size="50" value=""
+                                           type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>地点：</th>
+                                <td>
+                                    <input class="common-text required"  name="title" size="50" value=""
+                                           type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>工作经验：</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30"
                                               style="width: 50%;" rows="10"></textarea></td>
                             </tr>
                             <tr>
@@ -95,3 +120,4 @@
 </div>
 </body>
 </html>
+
