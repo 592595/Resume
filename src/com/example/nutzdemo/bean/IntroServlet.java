@@ -29,7 +29,7 @@ public class IntroServlet extends HttpServlet {
         response.setContentType("text/html;charset = GBK");
         String username = "panda";
         String IntroContent = request.getParameter("IntroContent");
-        PrintWriter out = response.getWriter();
+        PrintWriter out;
         //System.out.println(IntroContent);
         //System.out.println(username);
         Intro intro = new Intro();
@@ -39,11 +39,22 @@ public class IntroServlet extends HttpServlet {
         IntroDao dao = new IntroDao();
         dao.getConn("localhost", "resume", "root", "");
         if (dao.editIntr(intro)) {
-            out.println("success");
-            out.println("<br><a href = 'back.jsp'>返回</a></br>");
+            out = response.getWriter();
+            out.flush();
+            out.println("<script>");
+            out.println("alert('Success');");
+            out.println("window.location.href='back.jsp';");
+            out.println("</script>");
+            out.close();
+
         } else {
-            out.println("fail");
-            out.println("<br><a href = 'Intro.jsp'>重新修改</a></br>");
+            out = response.getWriter();
+            out.flush();
+            out.println("<script>");
+            out.println("alert('Fail');");
+            out.println("window.location.href='back.jsp';");
+            out.println("</script>");
+            out.close();
         }
     }
 

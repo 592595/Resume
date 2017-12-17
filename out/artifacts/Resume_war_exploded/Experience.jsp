@@ -56,6 +56,7 @@
                         <table class="insert-tab" width="100%">
                             <tbody>
                             <tr>
+
                                 <th><i class="require-red">*</i>位置：</th>
                                 <td>
                                     <input class="common-text required"  name="Experid" size="50" value=""
@@ -71,7 +72,7 @@
                             </tr>
                             <tr>
                                 <th>描述：</th>
-                                <td><textarea name="content" class="common-textarea" id="ExperContent" name="ExperContent" cols="30"
+                                <td><textarea class="common-textarea" id="ExperContent" name="ExperContent" cols="30"
                                               style="width: 50%;" rows="10"></textarea></td>
                             </tr>
                             <tr>

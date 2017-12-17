@@ -12,7 +12,7 @@ public class ExperDao extends DBOper {
      * @return
      */
     public List<Exper> getAllExper() {//把Msg改成Intro
-        List<Exper> msglist = new ArrayList<Exper>();
+        List<Exper> experList = new ArrayList<Exper>();
         String sql = "SELECT * FROM exper";
         try {
 
@@ -23,14 +23,14 @@ public class ExperDao extends DBOper {
                 exper.setExperid(rs.getString("Experid"));
                 exper.setExperTitle(rs.getString("ExperTitle"));
                 exper.setExperContent(rs.getString("ExperContent"));
-                msglist.add(exper);
+                experList.add(exper);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             this.closeAll();
         }
-        return msglist;
+        return experList;
     }
 
     public Exper getExperByid(String Experid) {
@@ -60,11 +60,11 @@ public class ExperDao extends DBOper {
     public boolean editExper(Exper exper) {
 
         boolean r = false;
-        String sql = "UPDATE exper SET ExperTitle= ?,ExperContent = ? WHERE  Experid= ?";
+        String sql = "UPDATE exper SET ExperTitle = ?,ExperContent=? WHERE  Experid= ?";
         try {
-            int num = this.executeUpdate(sql, new String[]{exper.getExperTitle(),exper.getExperContent(),exper.getExperid()});
+            int num = this.executeUpdate(sql, new String[]{exper.getExperTitle(), exper.getExperContent(), exper.getExperid()});
             System.out.println("num:" + num);
-            System.out.println(exper.getExperContent());
+            //System.out.println(exper.getExperContent());
             if (num > 0) {
                 r = true;
             }

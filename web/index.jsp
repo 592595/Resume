@@ -5,14 +5,22 @@
   Time: 20:15
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;chars1et=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@page import="java.util.List" %>
+<%@page import="java.util.ArrayList" %>
 <%@page import="com.example.nutzdemo.bean.DBOper" %>
 <%@ page import="java.sql.ResultSet" %>
+<%@ page import="com.example.nutzdemo.bean.Exper" %>
+<%@ page import="com.example.nutzdemo.bean.ExperDao" %>
+<%@ page import="com.example.nutzdemo.bean.Contact" %>
+<%@ page import="com.example.nutzdemo.bean.ContactDao" %>
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <!-- BEGIN HEAD -->
 <head>
-    <meta charset="utf-8"/>
+    <meta chars1et="utf-8"/>
     <title>Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -41,8 +49,31 @@
     DBOper dbOper = new DBOper();
     dbOper.getConn("localhost", "resume", "root", "");
     String username = "panda";
-    String sql = "SELECT * FROM intro WHERE username = ?";
-    ResultSet rs = dbOper.executeQuery(sql, new String[]{username});
+    String sql1 = "SELECT * FROM intro WHERE username = ?";
+    ResultSet rs1 = dbOper.executeQuery(sql1, new String[]{username});
+    ExperDao dao = new ExperDao();
+    List<Exper> experList = new ArrayList<Exper>();
+    try {
+        dao.getConn("localhost", "resume", "root", "");
+    }catch (Exception e){
+        e.printStackTrace();
+    }
+    experList=dao.getAllExper();
+    if(experList!=null){
+        application.setAttribute("experList",experList);
+    }
+    ContactDao dao1 = new ContactDao();
+    List<Contact> contactList = new ArrayList<Contact>();
+    try {
+        dao.getConn("localhost", "resume", "root", "");
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    contactList = dao1.getAllContact();
+    if (contactList != null) {
+        application.setAttribute("contactList", contactList);
+    }
+
 %>
 <!--========== HEADER ==========-->
 <header class="header navbar-fixed-top">
@@ -128,12 +159,12 @@
             <div class="col-sm-8 col-sm-offset-1">
                 <div class="margin-b-60">
                     <%
-                        while (rs.next()) {
+                        while (rs1.next()) {
                     %>
                     <p>
-                    <%
-                        out.print(rs.getString(2));
-                    %>
+                        <%
+                            out.print(rs1.getString(2));
+                        %>
                     </p>
 
                     <%
@@ -185,48 +216,24 @@
                         <p>Batman would be jealous.</p>
                     </div>
                 </div>
+
                 <div class="col-sm-8 col-sm-offset-1">
                     <div class="row row-space-2 margin-b-4">
-                        <div class="col-md-4 md-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
+                        <c:forEach var="exper" items="${experList}" varStatus="status">
+                            <%--${status.count }--%>
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-chemistry"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>${exper.experTitle}</h3>
+                                        <p class="margin-b-5">${exper.experContent}</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
                                 </div>
-                                <div class="service-info">
-                                    <h3>HTML5/CSS3</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                        dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>
                             </div>
-                        </div>
-                        <div class="col-md-4 md-margin-b-4">
-                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3"
-                                 data-wow-delay=".1s">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Photoshop</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat
-                                        siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Front-end</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                        dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>
-                            </div>
-                        </div>
+                        </c:forEach>
                     </div>
                     <!--// end row -->
                 </div>
@@ -236,6 +243,7 @@
     </div>
 </div>
 <!-- End Experience -->
+
 <!-- Work -->
 <div id="work">
     <div class="container content-lg">
@@ -511,24 +519,14 @@
                     </div>
                 </div>
                 <div class="col-sm-8 col-sm-offset-1">
-                    <div class="row">
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h5>Location</h5>
-                            <a href="#">Brookyln, New York</a>
+                    <c:forEach var="contact" items="${contactList}" varStatus="status">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>${contact.contactTitle}</h5>
+                                <a href="#">${contact.contactContent}</a>
+                            </div>
                         </div>
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h5>Phone</h5>
-                            <a href="#">+77 234 548 00 00</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h5>Email</h5>
-                            <a href="mailto:#">alex.teseira@gmail.com</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h5>Web</h5>
-                            <a href="#">alex.teseira.com</a>
-                        </div>
-                    </div>
+                    </c:forEach>
                 </div>
             </div>
             <!--// end row -->

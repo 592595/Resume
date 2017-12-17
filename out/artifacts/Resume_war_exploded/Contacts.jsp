@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: Pandade
   Date: 2017/12/10
-  Time: 22:46
+  Time: 23:19
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Intro管理</title>
+    <title>Contact管理</title>
     <link rel="stylesheet" type="text/css" href="StaticResource/CSS/common.css"/>
     <link rel="stylesheet" type="text/css" href="StaticResource/CSS/main.css"/>
     <script type="text/javascript" src="StaticResource/JS/modernizr.min.js"></script>
@@ -47,52 +47,44 @@
 
         <div class="crumb-wrap">
             <div class="crumb-list"><i class="icon-font"></i><a href="index.jsp">首页</a><span
-                    class="crumb-step">&gt;</span><a class="crumb-name" href="Contacts.jsp">Contacts管理</a>
+                    class="crumb-step">&gt;</span><a class="crumb-name" href="Contacts.jsp">Contacts操作</a>
             </div>
             <div class="result-wrap">
-                <form name="myform" id="myform" method="post">
-                    <div class="result-content">
-                        <table class="result-tab" width="50%" style="text-align: center">
+                <div class="result-content">
+                    <form action="#" method="post" id="myform" name="myform"
+                          enctype="multipart/form-data">
+                        <table class="insert-tab" width="100%">
+                            <tbody>
                             <tr>
-                                <th class="tc" width="10%"></th>
-                                <th style="text-align: center">标签</th>
-                                <th style="text-align: center">操作</th>
-                            </tr>
-                            <tr>
-                                <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                                <td>联系方式</td>  <!--标签ID-->
+                                <th><i class="require-red">*</i>位置：</th>
                                 <td>
-                                    <a class="link-update" href="updateContacts.jsp">修改</a>
-                                    <a class="link-del" href="#">删除</a>
+                                    <input class="common-text required" id="Contactid" name="Contactid" size="50" value=""
+                                           type="text">
                                 </td>
                             </tr>
                             <tr>
-                                <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                                <td>GitHub地址</td>  <!--标签ID-->
+                                <th><i class="require-red">*</i>标签：</th>
                                 <td>
-                                    <a class="link-update" href="#">修改</a>
-                                    <a class="link-del" href="#">删除</a>
+                                    <input class="common-text required" id="ContactTitle" name="ContactTitle" size="50" value=""
+                                           type="text">
                                 </td>
                             </tr>
                             <tr>
-                                <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                                <td>01</td>  <!--标签ID-->
-                                <td>
-                                    <a class="link-update" href="#">修改</a>
-                                    <a class="link-del" href="#">删除</a>
-                                </td>
+                                <th>内容：</th>
+                                <td><textarea name="ContactContent" class="common-textarea" id="ContactContent" cols="30"
+                                              style="width: 50%;" rows="10"></textarea></td>
                             </tr>
                             <tr>
-                                <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                                <td>01</td>  <!--标签ID-->
+                                <th></th>
                                 <td>
-                                    <a class="link-update" href="#">修改</a>
-                                    <a class="link-del" href="#">删除</a>
+                                    <input class="btn btn-primary btn6 mr10" value="发布" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
                                 </td>
                             </tr>
+                            </tbody>
                         </table>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
 
         </div>

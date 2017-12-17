@@ -11,56 +11,59 @@ public class DBOper {
     Connection conn = null;
     PreparedStatement ps = null;
     ResultSet rs = null;
+
     //打开连接
-    public Connection getConn(String server,String dbname,String dbuser,String dbpwd){
+    public Connection getConn(String server, String dbname, String dbuser, String dbpwd) {
         String DRIVER = "com.mysql.jdbc.Driver";
-        String URL = "jdbc:mysql://"+server+":3306/"+dbname+"?user="+dbuser+"&password="+dbpwd+"&useUnicode=true&characterEncoding=utf8";
-        try{
+        String URL = "jdbc:mysql://" + server + ":3306/" + dbname + "?user=" + dbuser + "&password=" + dbpwd + "&useUnicode=true&characterEncoding=utf8";
+        try {
             Class.forName(DRIVER);
             conn = DriverManager.getConnection(URL);
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return conn;
     }
+
     //关闭连接
-    public void closeAll(){
-        try{
-            if(rs != null){
+    public void closeAll() {
+        try {
+            if (rs != null) {
                 rs.close();
             }
-        }catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
-        }finally{
-            try{
-                if(ps != null){
+        } finally {
+            try {
+                if (ps != null) {
                     ps.close();
                 }
-            }catch(SQLException e){
+            } catch (SQLException e) {
                 e.printStackTrace();
-            }finally{
-                try{
-                    if(conn != null){
+            } finally {
+                try {
+                    if (conn != null) {
                         conn.close();
                     }
-                }catch (SQLException e){
+                } catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
         }
 
     }
+
     //执行sql语句，可以进行查询
-    public ResultSet executeQuery(String preparedSql,String []param){
-        try{
+    public ResultSet executeQuery(String preparedSql, String[] param) {
+        try {
             ps = conn.prepareStatement(preparedSql);
-            if(ps != null){
+            if (param != null) {
                 for (int i = 0; i < param.length; i++) {
                     ps.setString(i + 1, param[i]);
                 }
             }
             rs = ps.executeQuery();
-        }catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return rs;
@@ -68,18 +71,18 @@ public class DBOper {
     }
 
     //执行sql语句，增加，修改，删除
-    public int executeUpdate(String preparedSql,String[]param){
+    public int executeUpdate(String preparedSql, String[] param) {
         int num = 0;
-        try{
+        try {
             ps = conn.prepareStatement(preparedSql);
-            if(ps != null){
+            if (param != null) {
                 for (int i = 0; i < param.length; i++) {
                     ps.setString(i + 1, param[i]);
                 }
             }
             num = ps.executeUpdate();
-            System.out.println("数据表更新"+num+"条");
-        }catch(SQLException e){
+            System.out.println("数据表更新" + num + "条");
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return num;

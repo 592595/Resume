@@ -56,6 +56,13 @@
                         <table class="insert-tab" width="100%">
                             <tbody>
                             <tr>
+                                <th><i class="require-red">*</i>位置：</th>
+                                <td>
+                                    <input class="common-text required" id="id" name="id" size="50" value=""
+                                           type="text">
+                                </td>
+                            </tr>
+                            <tr>
                                 <th><i class="require-red">*</i>标题：</th>
                                 <td>
                                     <input class="common-text required" id="title" name="title" size="50" value=""
@@ -85,7 +92,7 @@
                             <tr>
                                 <th>工作经验：</th>
                                 <td><textarea name="content" class="common-textarea" id="content" cols="30"
-                                              style="width: 37%;" rows="10"></textarea></td>
+                                              style="width: 50%;" rows="10"></textarea></td>
                             </tr>
                             <tr>
                                 <th></th>

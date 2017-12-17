@@ -8,14 +8,14 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-@WebServlet("/ExperServlet")
-public class ExperServlet extends HttpServlet {
+@WebServlet("/ContactServlet")
+public class ContactServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ExperServlet() {
+    public ContactServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,21 +28,21 @@ public class ExperServlet extends HttpServlet {
         request.setCharacterEncoding("GBK");
         response.setContentType("text/html;charset = GBK");
         String username = "panda";
-        String Experid = request.getParameter("Experid");
-        String ExperTitle = request.getParameter("ExperTitle");
-        String ExperContent = request.getParameter("ExperContent");
+        String Contactid = request.getParameter("Contactid");
+        String ContactTitle = request.getParameter("ContactTitle");
+        String ContactContent = request.getParameter("ContactContent");
         PrintWriter out;
-        System.out.println(ExperContent);
+        System.out.println(ContactContent);
 
-        Exper exper = new Exper();
-        exper.setusername(username);
-        exper.setExperid(Experid);
-        exper.setExperTitle(ExperTitle);
-        exper.setExperContent(ExperContent);
+        Contact contact = new Contact();
+        contact.setusername(username);
+        contact.setContactid(Contactid);
+        contact.setContactTitle(ContactTitle);
+        contact.setContactContent(ContactContent);
 
-        ExperDao dao = new ExperDao();
+        ContactDao dao = new ContactDao();
         dao.getConn("localhost", "resume", "root", "");
-        if (dao.editExper(exper)) {
+        if (dao.editContact(contact)) {
             out = response.getWriter();
             out.flush();
             out.println("<script>");

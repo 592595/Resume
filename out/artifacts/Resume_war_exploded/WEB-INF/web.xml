@@ -13,30 +13,6 @@
         <welcome-file>default.jsp</welcome-file>
     </welcome-file-list>
 
-    <!--<servlet>-->
-        <!--<servlet-name>DruidStatView</servlet-name>-->
-        <!--<servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>DruidStatView</servlet-name>-->
-        <!--<url-pattern>/druid/*</url-pattern>-->
-    <!--</servlet-mapping>-->
-
-
-    <!--<filter>-->
-        <!--<filter-name>DruidWebStatFilter</filter-name>-->
-        <!--<filter-class>com.alibaba.druid.support.http.WebStatFilter</filter-class>-->
-        <!--<init-param>-->
-            <!--<param-name>exclusions</param-name>-->
-            <!--<param-value>*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*,/rs/*</param-value>-->
-        <!--</init-param>-->
-    <!--</filter>-->
-
-    <!--<filter-mapping>-->
-        <!--<filter-name>DruidWebStatFilter</filter-name>-->
-        <!--<url-pattern>/*</url-pattern>-->
-    <!--</filter-mapping>-->
-
     <servlet>
         <description></description>
         <display-name>LoginServlet</display-name>
@@ -54,6 +30,12 @@
         <display-name>ExperServlet</display-name>
         <servlet-name>ExperServlet</servlet-name>
         <servlet-class>com.example.nutzdemo.bean.ExperServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description></description>
+        <display-name>ContactServlet</display-name>
+        <servlet-name>ContactServlet</servlet-name>
+        <servlet-class>com.example.nutzdemo.bean.ContactServlet</servlet-class>
     </servlet>
 
 </web-app>

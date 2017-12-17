@@ -11,24 +11,23 @@ public class IntroDao extends DBOper {
      *
      * @return
      */
-    public List<Intro> getAllIntro() {//把Msg改成Intro
-        List<Intro> msglist = new ArrayList<Intro>();
-        String sql = "SELECT * FROM Intro";
+    public List<Intro> getAllIntro() {
+        List<Intro> introList = new ArrayList<Intro>();
+        String sql = "SELECT * FROM intro";
         try {
-
             ResultSet rs = this.executeQuery(sql, null);
             while (rs.next()) {
                 Intro Intr = new Intro();
                 Intr.setusername(rs.getString("username"));
                 Intr.setIntroContent(rs.getString("IntroContent"));
-                msglist.add(Intr);
+                introList.add(Intr);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             this.closeAll();
         }
-        return msglist;
+        return introList;
     }
 
     public Intro getIntroByname(String username) {
