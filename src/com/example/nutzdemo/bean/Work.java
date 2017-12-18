@@ -4,10 +4,11 @@ public class Work {
     private String username;
     private String Workid;
     private String WorkTitle;
-    private String WorkImage;
+    private String WorkImagePath;
     private String WorkTime;
     private String WorkLocation;
     private String WorkContent;
+    /**/
 
     public String getusername() {
         return username;
@@ -30,11 +31,11 @@ public class Work {
         this.WorkTitle = WorkTitle;
     }
 
-    public String getWorkImage() {
-        return WorkImage;
+    public String getWorkImagePath() {
+        return WorkImagePath;
     }
-    public void setWorkImage(String WorkImage) {
-        this.WorkImage = WorkImage;
+    public void setWorkImagePath(String WorkImagePath) {
+        this.WorkImagePath = WorkImagePath;
     }
 
     public String getWorkTime() {

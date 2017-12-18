@@ -79,7 +79,7 @@
                             <tr>
                                 <th><i class="require-red">*</i>图片：</th>
                                 <td><input name="smallimg" id="" type="file">
-                                    <!--<input type="submit" onclick="submitForm('/jscss/admin/design/upload')" value="上传图片"/>-->
+                                    <%--<input type="submit" onclick="submitForm('/jscss/admin/design/upload')" value="上传图片"/>--%>
                                 </td>
                             </tr>
                             <tr>

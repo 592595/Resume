@@ -36,7 +36,7 @@
                     <ul class="sub-menu">
                         <li><a href="Intro.jsp"><i class="icon-font">&#xe008;</i>Intro管理</a></li>
                         <li><a href="Experience.jsp"><i class="icon-font">&#xe005;</i>Experience管理</a></li>
-                        <li><a href="Works.jsp"><i class="icon-font">&#xe006;</i>Works管理</a></li>
+                        <li><a href="updateWorks.jsp"><i class="icon-font">&#xe006;</i>Works管理</a></li>
                         <li><a href="Contacts.jsp"><i class="icon-font">&#xe006;</i>Contacts管理</a></li>
                     </ul>
                 </li>
