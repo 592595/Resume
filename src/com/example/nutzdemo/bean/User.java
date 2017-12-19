@@ -1,7 +1,5 @@
 package com.example.nutzdemo.bean;
-/*
-* 对user进行数据的封装
-* */
+
 public class User {
 
     private String username;

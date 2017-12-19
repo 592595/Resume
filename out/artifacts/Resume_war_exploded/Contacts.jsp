@@ -60,7 +60,6 @@
             </ul>
         </div>
     </div>
-    <!--/sidebar-->
     <div class="main-wrap">
 
         <div class="crumb-wrap">
@@ -79,7 +78,7 @@
                             <c:forEach var="contact" items="${contactList}">
                                 <tr>
                                     <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                                    <td>${contact.contactTitle}</td>  <!--标签ID-->
+                                    <td>${contact.contactTitle}</td>
                                     <td>
                                         <a class="link-update" href="updateContacts.jsp?Contactid=${contact.contactid}">修改</a>
                                         <a class="link-del" href="#">删除</a>
@@ -90,9 +89,7 @@
                     </div>
                 </form>
             </div>
-
         </div>
-        <!--/main-->
     </div>
 </div>
 </body>

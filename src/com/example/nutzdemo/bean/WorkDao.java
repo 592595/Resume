@@ -7,11 +7,6 @@ import java.util.List;
 
 public class WorkDao extends DBOper {
 
-    /**
-     * 获取所有Intr
-     *
-     * @return
-     */
     public List<Work> getAllWork(){
         List<Work> workList = new ArrayList<Work>();
         String sql = "SELECT * FROM work";
@@ -23,7 +18,6 @@ public class WorkDao extends DBOper {
                 work.setusername(rs.getString("username"));
                 work.setWorkid(rs.getString("Workid"));
                 work.setWorkTitle(rs.getString("WorkTitle"));
-                work.setWorkImagePath(rs.getString("WorkImagePath"));
                 work.setWorkTime(rs.getString("WorkTime"));
                 work.setWorkLocation(rs.getString("WorkWorkLocation"));
                 work.setWorkContent(rs.getString("WorkWorkContent"));
@@ -47,7 +41,6 @@ public class WorkDao extends DBOper {
                 work.setusername(rs.getString("username"));
                 work.setWorkid(rs.getString("Workid"));
                 work.setWorkTitle(rs.getString("WorkTitle"));
-                work.setWorkImagePath(rs.getString("WorkImagePath"));
                 work.setWorkTime(rs.getString("WorkTime"));
                 work.setWorkLocation(rs.getString("WorkWorkLocation"));
                 work.setWorkContent(rs.getString("WorkWorkContent"));
@@ -58,19 +51,12 @@ public class WorkDao extends DBOper {
         return work;
     }
 
-    /**
-     * 修改Work信息
-     *
-     * @param Work
-     * @return
-     */
-
     public boolean editWork(Work Work) {
 
         boolean r = false;
-        String sql = "UPDATE Work SET WorkTitle = ?,WorkImage = ?,WorkTime=?,WorkLocation=?,WorkContent=? WHERE  Workid= ?";
+        String sql = "UPDATE Work SET WorkTitle = ?,WorkTime=?,WorkLocation=?,WorkContent=? WHERE  Workid= ?";
         try {
-            int num = this.executeUpdate(sql, new String[]{Work.getWorkTitle(), Work.getWorkImagePath(),Work.getWorkTime(),Work.getWorkLocation(), Work.getWorkContent(), Work.getWorkid()});
+            int num = this.executeUpdate(sql, new String[]{Work.getWorkTitle(),Work.getWorkTime(),Work.getWorkLocation(), Work.getWorkContent(), Work.getWorkid()});
             System.out.println("num:" + num);
             //System.out.println(Work.getWorkContent());
             if (num > 0) {

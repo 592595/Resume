@@ -12,7 +12,6 @@ public class DBOper {
     PreparedStatement ps = null;
     ResultSet rs = null;
 
-    //打开连接
     public Connection getConn(String server, String dbname, String dbuser, String dbpwd) {
         String DRIVER = "com.mysql.jdbc.Driver";
         String URL = "jdbc:mysql://" + server + ":3306/" + dbname + "?user=" + dbuser + "&password=" + dbpwd + "&useUnicode=true&characterEncoding=utf8";
@@ -25,7 +24,6 @@ public class DBOper {
         return conn;
     }
 
-    //关闭连接
     public void closeAll() {
         try {
             if (rs != null) {
@@ -53,7 +51,6 @@ public class DBOper {
 
     }
 
-    //执行sql语句，可以进行查询
     public ResultSet executeQuery(String preparedSql, String[] param) {
         try {
             ps = conn.prepareStatement(preparedSql);
@@ -70,7 +67,6 @@ public class DBOper {
 
     }
 
-    //执行sql语句，增加，修改，删除
     public int executeUpdate(String preparedSql, String[] param) {
         int num = 0;
         try {

@@ -28,7 +28,6 @@
     <footer>
         <label><input type="checkbox" tabindex="3">Keep me logged in</label>
         <input type="submit" class="btnLogin" value="Login" tabindex="4"/>
-        <a href="back.jsp">denglu</a>
     </footer>
 </form>
 </body>

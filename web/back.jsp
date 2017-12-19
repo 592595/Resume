@@ -43,7 +43,7 @@
             </ul>
         </div>
     </div>
-    <!--/sidebar-->
+
     <div class="main-wrap">
 
         <div class="crumb-wrap">
@@ -61,7 +61,7 @@
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>Intro</td>  <!--标签ID-->
+                            <td>Intro</td>
                             <td>
                                 <a class="link-update" href="Intro.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
@@ -69,7 +69,7 @@
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>Experience</td>  <!--标签ID-->
+                            <td>Experience</td>
                             <td>
                                 <a class="link-update" href="Experience.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
@@ -77,7 +77,7 @@
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>Works</td>  <!--标签ID-->
+                            <td>Works</td>
                             <td>
                                 <a class="link-update" href="Works.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
@@ -85,7 +85,7 @@
                         </tr>
                         <tr>
                             <td class="tc"><input name="id[]" value="" type="checkbox"></td>
-                            <td>Contacts</td>  <!--标签ID-->
+                            <td>Contacts</td>
                             <td>
                                 <a class="link-update" href="Contacts.jsp">修改</a>
                                 <a class="link-del" href="#">删除</a>
@@ -96,7 +96,7 @@
             </form>
         </div>
     </div>
-    <!--/main-->
+
 </div>
 </body>
 </html>

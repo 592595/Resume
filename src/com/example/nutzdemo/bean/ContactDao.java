@@ -6,11 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ContactDao extends DBOper {
-    /**
-     * 获取所有Intr
-     *
-     * @return
-     */
+
     public List<Contact> getAllContact() {
         List<Contact> contactList = new ArrayList<Contact>();
         String sql = "SELECT * FROM contact";
@@ -51,12 +47,7 @@ public class ContactDao extends DBOper {
         return Contact;
     }
 
-    /**
-     * 修改Intr信息
-     *
-     * @param contact
-     * @return
-     */
+
     public boolean editContact(Contact contact) {
 
         boolean r = false;

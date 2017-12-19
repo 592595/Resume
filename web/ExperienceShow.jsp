@@ -19,18 +19,14 @@
     <meta content="" name="description"/>
     <meta content="" name="author"/>
 
-    <!-- GLOBAL MANDATORY STYLES -->
     <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
     <link href="StaticResource/Vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
     <link href="StaticResource/Vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-    <!-- PAGE LEVEL PLUGIN STYLES -->
     <link href="StaticResource/CSS/animate.css" rel="stylesheet">
 
-    <!-- THEME STYLES -->
     <link href="StaticResource/CSS/layout.min.css" rel="stylesheet" type="text/css"/>
 
-    <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <body>
@@ -76,10 +72,8 @@
                             </div>
                         </c:forEach>
                     </div>
-                    <!--// end row -->
                 </div>
             </div>
-            <!--// end row -->
         </div>
     </div>
 </div>

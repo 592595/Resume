@@ -1,14 +1,12 @@
 package com.example.nutzdemo.bean;
-/*
-对用户进行增删改查
- */
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserDao extends DBOper{
-    //获取用户列表
+
     public List<User> getUser(){
         List<User>userList = new ArrayList<User>();
         User user = new User();
@@ -28,7 +26,7 @@ public class UserDao extends DBOper{
         }
         return userList;
     }
-    //根据用户名获取用户
+
     public User getUserByName(String name){
         User user = null;
         String sql = "SELECT * FROM user WHERE　username = ?";
@@ -63,36 +61,4 @@ public class UserDao extends DBOper{
 
     }
 
-//    //添加用户
-//    public boolean addUser(User user){
-//        boolean r = false;
-//        String sql = "INSERT INTO user(username,pwd,role,regtime)VALUES(?,?,?,?) ";
-//        try{
-//            int num = this.executeUpdate(sql,new String[]{user.getUsername(),user.getpwd()});
-//            if(num > 0){
-//                r = true;
-//            }
-//        }catch(Exception e){
-//            e.printStackTrace();
-//        }finally{
-//            this.closeAll();
-//        }
-//        return r;
-//    }
-//    //删除指定用户
-//    public boolean delUser(String name){
-//        boolean r = false;
-//        String sql = "DELETE FROM user WHERE username = ?";
-//        try{
-//            int num = this.executeUpdate(sql,new String[]{name});
-//            if(num > 0){
-//                r = true;
-//            }
-//        }catch(Exception e){
-//            e.printStackTrace();
-//        }finally{
-//            this.closeAll();
-//        }
-//        return r;
-//    }
 }

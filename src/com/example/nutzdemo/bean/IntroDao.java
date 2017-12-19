@@ -6,11 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntroDao extends DBOper {
-    /**
-     * 获取所有Intr
-     *
-     * @return
-     */
+
     public List<Intro> getAllIntro() {
         List<Intro> introList = new ArrayList<Intro>();
         String sql = "SELECT * FROM intro";
@@ -46,12 +42,7 @@ public class IntroDao extends DBOper {
         return Intr;
     }
 
-    /**
-     * 修改Intr信息
-     *
-     * @param Intr
-     * @return
-     */
+
     public boolean editIntr(Intro Intr) {
 
         boolean r = false;

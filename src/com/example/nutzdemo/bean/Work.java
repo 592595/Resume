@@ -4,11 +4,9 @@ public class Work {
     private String username;
     private String Workid;
     private String WorkTitle;
-    private String WorkImagePath;
     private String WorkTime;
     private String WorkLocation;
     private String WorkContent;
-    /**/
 
     public String getusername() {
         return username;
@@ -29,13 +27,6 @@ public class Work {
     }
     public void setWorkTitle(String WorkTitle) {
         this.WorkTitle = WorkTitle;
-    }
-
-    public String getWorkImagePath() {
-        return WorkImagePath;
-    }
-    public void setWorkImagePath(String WorkImagePath) {
-        this.WorkImagePath = WorkImagePath;
     }
 
     public String getWorkTime() {

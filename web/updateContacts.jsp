@@ -58,7 +58,6 @@
             </ul>
         </div>
     </div>
-    <!--/sidebar-->
     <div class="main-wrap">
 
         <div class="crumb-wrap">
@@ -105,9 +104,7 @@
                     </form>
                 </div>
             </div>
-
         </div>
-        <!--/main-->
     </div>
 </div>
 </body>

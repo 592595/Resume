@@ -42,7 +42,6 @@
             </ul>
         </div>
     </div>
-    <!--/sidebar-->
     <div class="main-wrap">
 
         <div class="crumb-wrap">
@@ -72,7 +71,6 @@
             </div>
 
         </div>
-        <!--/main-->
     </div>
 </div>
 </body>

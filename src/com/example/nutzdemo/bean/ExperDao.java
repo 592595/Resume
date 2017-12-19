@@ -6,11 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExperDao extends DBOper {
-    /**
-     * 获取所有Intr
-     *
-     * @return
-     */
     public List<Exper> getAllExper() {//把Msg改成Intro
         List<Exper> experList = new ArrayList<Exper>();
         String sql = "SELECT * FROM exper";
@@ -51,12 +46,7 @@ public class ExperDao extends DBOper {
         return exper;
     }
 
-    /**
-     * 修改Intr信息
-     *
-     * @param exper
-     * @return
-     */
+
     public boolean editExper(Exper exper) {
 
         boolean r = false;

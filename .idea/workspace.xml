@@ -17,32 +17,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WorkDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkDao.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="74">
+              <caret line="415" column="0" lean-forward="false" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#323#0" expanded="true" />
-                <element signature="method#getWorkByid#0;class#WorkDao#0" expanded="false" />
-                <marker date="1513588959321" expanded="true" signature="349:367" ph="SELECT * FRO... work" />
+                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkServlet.java">
+      <file leaf-file-name="ExperienceShow.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ExperienceShow.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="230">
+              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Experience.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Experience.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactShow.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ContactShow.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contacts.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Contacts.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="back.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/back.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginIn.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/loginIn.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateContacts.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/updateContacts.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#1071#1077#0" expanded="false" />
-                <element signature="docComment;method#WorkServlet#0;class#WorkServlet#0" expanded="false" />
-                <element signature="method#WorkServlet#0;class#WorkServlet#0" expanded="false" />
-                <element signature="docComment;method#doGet#0;class#WorkServlet#0" expanded="false" />
+                <element signature="n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intro.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Intro.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroShow.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/IntroShow.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,10 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dbname</find>
-      <find>tb_user</find>
-      <find>SQLException</find>
-      <find>getUserByName</find>
       <find>Msg</find>
       <find>MsgDao</find>
       <find>Message</find>
@@ -75,7 +155,6 @@
       <find>Intr</find>
       <find>sql</find>
       <find>rs</find>
-      <find>Contac</find>
       <find>Exper</find>
       <find>WorkTitle</find>
       <find>WorkContent</find>
@@ -83,11 +162,17 @@
       <find>ContactTitle</find>
       <find>ContactContent</find>
       <find>ContactDao</find>
-      <find>Contact</find>
       <find>Experid</find>
       <find>ExperTitle</find>
       <find>Image</find>
       <find>ExperContent</find>
+      <find>ImgDao</find>
+      <find>TB_Img</find>
+      <find>WorkImage</find>
+      <find>Contac</find>
+      <find>Contact</find>
+      <find>WorkImagePath</find>
+      <find>out</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -112,43 +197,43 @@
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/MianServlet.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/MainServlet.java" />
         <option value="$PROJECT_DIR$/web/Introdo.jsp" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/UserDao.java" />
-        <option value="$PROJECT_DIR$/web/loginIn.jsp" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/Intro.java" />
-        <option value="$PROJECT_DIR$/web/Intro.jsp" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroServlet.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/Exper.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperServlet.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperDao.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroDao.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/DBOper.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/Contact.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactDa.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/editContactServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactDao.java" />
-        <option value="$PROJECT_DIR$/web/updateContacts.jsp" />
-        <option value="$PROJECT_DIR$/web/IntroShow.jsp" />
-        <option value="$PROJECT_DIR$/web/ExperienceShow.jsp" />
-        <option value="$PROJECT_DIR$/web/ContactShow.jsp" />
-        <option value="$PROJECT_DIR$/web/Experience.jsp" />
-        <option value="$PROJECT_DIR$/web/Contacts.jsp" />
-        <option value="$PROJECT_DIR$/web/Works.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/back.jsp" />
-        <option value="$PROJECT_DIR$/web/updateWorks.jsp" />
         <option value="$PROJECT_DIR$/web/WorksShow.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadServlet.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/FileItem.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ImgDao.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/Work.java" />
-        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkDao.java" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadHandleServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkDao.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactDao.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/DBOper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/editContactServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperDao.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroDao.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/Work.java" />
+        <option value="$PROJECT_DIR$/web/back.jsp" />
+        <option value="$PROJECT_DIR$/web/Contacts.jsp" />
+        <option value="$PROJECT_DIR$/web/ContactShow.jsp" />
+        <option value="$PROJECT_DIR$/web/Experience.jsp" />
+        <option value="$PROJECT_DIR$/web/ExperienceShow.jsp" />
+        <option value="$PROJECT_DIR$/web/Intro.jsp" />
+        <option value="$PROJECT_DIR$/web/updateContacts.jsp" />
+        <option value="$PROJECT_DIR$/web/updateWorks.jsp" />
         <option value="$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkServlet.java" />
+        <option value="$PROJECT_DIR$/web/IntroShow.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/loginIn.jsp" />
+        <option value="$PROJECT_DIR$/web/Works.jsp" />
       </list>
     </option>
   </component>
@@ -186,10 +271,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +307,12 @@
               <item name="Resume" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resume" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticResource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resume" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,6 +326,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,19 +341,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Chorm\Resume\src" />
-      <recent name="D:\Chorm\Resume\web\WEB-INF\classes" />
-      <recent name="D:\Chorm\Resume\Java Resources\classes" />
-      <recent name="D:\Chorm\Resume\web\WEB-INF" />
-      <recent name="D:\Chorm\Resume\web" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.nutzdemo.bean" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.nutzdemo.bean" />
-      <recent name="servlet.loginDao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Chorm\Resume\web\WEB-INF\lib" />
@@ -270,6 +350,17 @@
       <recent name="D:\Chorm\Resume\src" />
       <recent name="D:\Chorm\Resume\web" />
       <recent name="D:\Chorm\Resume\src\com\example\nutzdemo\bean" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.nutzdemo.bean" />
+      <recent name="servlet.loginDao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Chorm\Resume\src" />
+      <recent name="D:\Chorm\Resume\web\WEB-INF\classes" />
+      <recent name="D:\Chorm\Resume\Java Resources\classes" />
+      <recent name="D:\Chorm\Resume\web\WEB-INF" />
+      <recent name="D:\Chorm\Resume\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,19 +552,19 @@
       <workItem from="1513330786438" duration="10974000" />
       <workItem from="1513476164512" duration="24674000" />
       <workItem from="1513579476599" duration="9711000" />
+      <workItem from="1513660571233" duration="15015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115984000" />
+    <option name="totallyTimeSpent" value="130999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32072368" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -485,8 +576,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.8668281" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.13317192" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22617246" sideWeight="0.8799342" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22617246" sideWeight="0.120065786" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -510,12 +601,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nutzdemo/bean/FirstServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/servlet/pan.java" />
     <entry file="file://$PROJECT_DIR$/src/com/servlet/pan.java" />
     <entry file="file://$PROJECT_DIR$/src/servlet/LoginDao/UserDao.java" />
@@ -525,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,27 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/loginIn.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#getUser#0;class#UserDao#0" expanded="false" />
-            <element signature="method#getUserByName#0;class#UserDao#0" expanded="false" />
-            <element signature="e#1803#1815#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,28 +670,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/User.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="990">
+          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WorksShow.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/FileItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ImgDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadHandleServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ukuServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
           <folding>
-            <element signature="e#242#243#0" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
+            <element signature="method#getAllContact#0;class#ContactDao#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Intro.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/editContactServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-996">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="346">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="method#editContactServlet#0;class#editContactServlet#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/Exper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="396">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#770#771#0" expanded="false" />
@@ -632,60 +737,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="-418">
+          <caret line="18" column="121" lean-forward="false" selection-start-line="18" selection-start-column="121" selection-end-line="18" selection-end-column="121" />
           <folding>
-            <element signature="docComment;method#ExperServlet#0;class#ExperServlet#0" expanded="false" />
-            <element signature="method#ExperServlet#0;class#ExperServlet#0" expanded="false" />
-            <element signature="docComment;method#doGet#0;class#ExperServlet#0" expanded="false" />
-            <element signature="method#doGet#0;class#ExperServlet#0" expanded="false" />
-            <element signature="docComment;method#doPost#0;class#ExperServlet#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/IntroShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/DBOper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#closeAll#0;class#DBOper#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ExperienceShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="12" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Experience.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,233 +764,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Contacts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ContactShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="50" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="33" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WorksShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="171" column="57" lean-forward="false" selection-start-line="171" selection-start-column="57" selection-end-line="171" selection-end-column="57" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/back.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/editContactServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#editContactServlet#0;class#editContactServlet#0" expanded="false" />
-            <element signature="method#editContactServlet#0;class#editContactServlet#0" expanded="false" />
-            <element signature="docComment;method#doGet#0;class#editContactServlet#0" expanded="false" />
-            <element signature="docComment;method#doPost#0;class#editContactServlet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/FileItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;method#IntroServlet#0;class#IntroServlet#0" expanded="false" />
-            <element signature="method#IntroServlet#0;class#IntroServlet#0" expanded="false" />
-            <element signature="docComment;method#doGet#0;class#IntroServlet#0" expanded="false" />
-            <element signature="docComment;method#doPost#0;class#IntroServlet#0" expanded="false" />
-            <element signature="method#doPost#0;class#IntroServlet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#LoginServlet#0;class#LoginServlet#0" expanded="false" />
-            <element signature="method#LoginServlet#0;class#LoginServlet#0" expanded="false" />
-            <element signature="docComment;method#doGet#0;class#LoginServlet#0" expanded="false" />
-            <element signature="docComment;method#doPost#0;class#LoginServlet#0" expanded="false" />
-            <element signature="method#init#0;class#LoginServlet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Works.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/updateContacts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/updateWorks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="104" column="35" lean-forward="true" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ImgDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ExperDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;method#getAllExper#0;class#ExperDao#0" expanded="false" />
-            <element signature="e#335#342#0" expanded="false" />
-            <element signature="method#getExperByid#0;class#ExperDao#0" expanded="false" />
-            <element signature="docComment;method#editExper#0;class#ExperDao#0" expanded="false" />
-            <element signature="method#editExper#0;class#ExperDao#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        <state relative-caret-position="110">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="method#getIntroByname#0;class#IntroDao#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/Work.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/IntroServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="176">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/ContactDao.java">
+    <entry file="file://$PROJECT_DIR$/web/updateWorks.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-          <folding>
-            <element signature="docComment;method#getAllContact#0;class#ContactDao#0" expanded="false" />
-            <element signature="method#getAllContact#0;class#ContactDao#0" expanded="false" />
-            <element signature="method#editContact#0;class#ContactDao#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="-308">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#317#323#0" expanded="true" />
-            <element signature="method#getWorkByid#0;class#WorkDao#0" expanded="false" />
-            <marker date="1513588959321" expanded="true" signature="349:367" ph="SELECT * FRO... work" />
+            <marker date="1513674222929" expanded="true" signature="295:313" ph="SELECT * FRO... work" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/UploadHandleServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/Work.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="209" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="method#getUser#0;class#UserDao#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#UserDao#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#LoginServlet#0;class#LoginServlet#0" expanded="false" />
+            <element signature="method#LoginServlet#0;class#LoginServlet#0" expanded="false" />
+            <element signature="method#init#0;class#LoginServlet#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/WorkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="352">
+          <caret line="26" column="65" lean-forward="true" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding>
-            <element signature="e#1071#1077#0" expanded="false" />
-            <element signature="docComment;method#WorkServlet#0;class#WorkServlet#0" expanded="false" />
             <element signature="method#WorkServlet#0;class#WorkServlet#0" expanded="false" />
-            <element signature="docComment;method#doGet#0;class#WorkServlet#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/nutzdemo/bean/DBOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#closeAll#0;class#DBOper#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Works.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="n#html#0;n#!!top" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#736#1086#0#JSP" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/updateContacts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/loginIn.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/IntroShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Intro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="415" column="0" lean-forward="false" selection-start-line="415" selection-start-column="0" selection-end-line="415" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ExperienceShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Experience.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ContactShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Contacts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
